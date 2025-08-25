@@ -5,15 +5,15 @@ import com.alura.forohub.dto.request.TopicoUpdateDTO;
 import com.alura.forohub.dto.response.TopicoDetailDTO;
 import com.alura.forohub.dto.response.TopicoResponseDTO;
 import com.alura.forohub.service.TopicoService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
-import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -21,9 +21,11 @@ import org.springframework.web.bind.annotation.*;
 @SecurityRequirement(name = "bearer-key")
 public class TopicoController {
 
-    @Autowired
-    private TopicoService topicoService;
+    private final TopicoService topicoService;
 
+    public TopicoController(TopicoService topicoService) {
+        this.topicoService = topicoService;
+    }
     @PostMapping
     public ResponseEntity<TopicoResponseDTO> crearTopico(
             @RequestBody @Valid TopicoRequestDTO dto,
