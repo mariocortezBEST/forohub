@@ -322,12 +322,12 @@ mvn jacoco:prepare-agent test jacoco:report
 
 ## 📄 Licencia
 
-ver el archivo [LICENSE]
+ver el archivo [LICENSE](LICENSE)
 ## 👨‍💻 Autor
 
 **Mario Isaac Alberto Cortez**
 - GitHub: [@tu-usuario](https://github.com/mariocortezBEST)
-- LinkedIn: [tu-perfil](https://linkedin.com/in/https://https://www.linkedin.com/in/maritocortez/)
+- LinkedIn: [tu-perfil](https://linkedin.com/in/mariocortez/)
 - Email: cortezmario665@gmail.com
 
 ---
