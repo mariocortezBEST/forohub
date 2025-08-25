@@ -327,7 +327,7 @@ ver el archivo [LICENSE]
 
 **Mario Isaac Alberto Cortez**
 - GitHub: [@tu-usuario](https://github.com/mariocortezBEST)
-- LinkedIn: [tu-perfil](https://linkedin.com/in/mariocortez)
+- LinkedIn: [tu-perfil](https://linkedin.com/in/https://www.linkedin.com/in/maritocortez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_verification_details%3B74ECv5%2FkRf2KEwTljhohcQ%3D%3D)
 - Email: cortezmario665@gmail.com
 
 ---
